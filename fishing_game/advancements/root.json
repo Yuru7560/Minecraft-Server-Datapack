@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "\u00a7d釣[魚]大賽"
+        },
+        "description": {
+            "text": "\u00a76這只是根標籤\n\u00a76不是一般的成就!"
+        },
+        "icon": {
+            "item": "minecraft:fishing_rod",
+            "nbt": "{Enchantments:[{id:\"minecraft:luck_of_the_sea\",lvl:10}]}"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "fish": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

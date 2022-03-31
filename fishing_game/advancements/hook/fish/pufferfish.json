@@ -1,0 +1,30 @@
+{
+    "criteria": {
+        "pufferfish": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "entity": [
+                    {
+                      "condition": "minecraft:inverted",
+                      "term": {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                          "nbt": "{Tags:[\"not_fishing_item\"]}"
+                        }
+                      }
+                    }
+                ],
+                "item": {
+                    "items": [
+                      "minecraft:pufferfish"
+                    ],
+                    "count": 1
+                  }
+            }
+        }
+    },
+    "rewards": {
+        "function": "fishing_game:hook/fish/pufferfish"
+    }
+}
