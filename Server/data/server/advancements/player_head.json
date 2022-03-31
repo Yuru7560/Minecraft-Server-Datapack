@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "player_head": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "server:adv_functions/player_head/drop_item"
+  }
+}

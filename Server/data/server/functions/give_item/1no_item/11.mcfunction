@@ -1,0 +1,2 @@
+#建築藥水
+give @s minecraft:splash_potion{display:{Name:'{"text":"\\u00a7a建築藥水"}',Lore:['{"text":"\\u00a7e非常適合投入平時建築的活動"}']},CustomPotionEffects:[{Id:1b,Amplifier:1b,Duration:72000,Ambient:0b,ShowParticles:1b,ShowIcon:1b},{Id:3b,Amplifier:1b,Duration:72000,Ambient:0b,ShowParticles:1b,ShowIcon:1b},{Id:8b,Amplifier:2b,Duration:72000,Ambient:0b,ShowParticles:1b,ShowIcon:1b},{Id:13b,Amplifier:0b,Duration:72000,Ambient:0b,ShowParticles:1b,ShowIcon:1b}],CustomPotionColor:16419343} 1

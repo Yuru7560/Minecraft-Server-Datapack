@@ -1,0 +1,32 @@
+{
+    "criteria": {
+      "spyglass_at_player": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:player",
+                "player": {
+                  "looking_at": {
+                    "type": "minecraft:player"
+                  }
+                }
+              }
+            }
+          ],
+          "item": {
+            "items": [
+              "minecraft:spyglass"
+            ]
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "server_adv:spyglass_at_player/start"
+    }
+  }
+  

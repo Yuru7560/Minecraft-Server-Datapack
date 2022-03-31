@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:player_head",
+        "nbt": "{SkullOwner:\"SachiYuuna\"}"
+      },
+      "title": "§6優奈§e-§b寶石§a伺服器",
+      "description": "§b會員專屬§e的§d麥塊伺服器",
+      "background": "textures/block/brain_coral_block.png",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "criteria": {
+      "server": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }
+  

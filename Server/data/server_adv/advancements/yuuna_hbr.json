@@ -1,0 +1,26 @@
+{
+    "criteria": {
+      "yuuna_hbr": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:paper"
+            ],
+            "count": 1,
+            "nbt": "{display:{Name:'{\"text\":\"優奈 生日快樂\"}'}}"
+          },
+          "location": {
+            "block": {
+              "tag": "minecraft:signs",
+              "nbt": "{Text1:'{\"text\":\"優奈\"}',Text2:'{\"text\":\"生日快樂\"}'}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "server_adv:yuuna_hbr/text"
+    }
+}
+  

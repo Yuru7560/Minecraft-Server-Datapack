@@ -1,0 +1,6 @@
+
+execute unless entity @e[type=armor_stand,tag=spyglass_detect_look,sort=nearest,distance=..0.1] run tag @s[tag=!hold_spyglass] add hold_spyglass
+execute unless entity @e[type=armor_stand,tag=spyglass_detect_look,sort=nearest,distance=..0.1] run summon armor_stand ~ ~ ~ {Tags:["spyglass_detect_look"],NoGravity:1b}
+execute as @e[type=armor_stand,tag=spyglass_detect_look,sort=nearest,distance=..0.1] at @s rotated as @p[tag=hold_spyglass] run tp @s ~ ~ ~ ~ ~
+
+execute as @e[type=armor_stand,tag=spyglass_detect_look] at @s run function server:adv_functions/spyglass_at_player/detect_look

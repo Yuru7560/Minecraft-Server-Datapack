@@ -1,0 +1,42 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:rail"
+      },
+      "title": "§e暢行無阻",
+      "description": "§a從開始處乘坐礦車至少1公里",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "minecraft:adventure/sleep_in_bed",
+    "criteria": {
+      "distance": {
+        "trigger": "minecraft:started_riding",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:player",
+                "distance": {
+                  "horizontal": {
+                    "min": 1000
+                  }
+                },
+                "vehicle": {
+                  "type": "minecraft:minecart"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "experience": 100
+    }
+}
+  

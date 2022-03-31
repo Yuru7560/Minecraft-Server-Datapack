@@ -1,0 +1,2 @@
+#肥宅快樂水
+give @s minecraft:splash_potion{display:{Name:'{"text":"\\u00a79\\u00a7l肥宅快樂水"}',Lore:['{"text":"\\u00a79\\u00a7n全方位交際 這是樂園 這女孩 那女孩 還有那邊的女孩"}','{"text":"\\u00a79\\u00a7n但是人生不如意"}']},CustomPotionEffects:[{Id:2b,Amplifier:100b,Duration:3600,Ambient:0b,ShowParticles:1b,ShowIcon:0b},{Id:9b,Amplifier:100b,Duration:3600,Ambient:0b,ShowParticles:1b,ShowIcon:0b},{Id:19b,Amplifier:100b,Duration:600,Ambient:0b,ShowParticles:1b,ShowIcon:0b},{Id:20b,Amplifier:100b,Duration:600,Ambient:0b,ShowParticles:1b,ShowIcon:0b}],CustomPotionColor:11556863} 1

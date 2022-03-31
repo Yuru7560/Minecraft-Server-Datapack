@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond",
+      "nbt": "{Enchantments:[{id:\"minecraft:infinity\",lvl:1}]}"
+    },
+    "title": "§d送你的鑽石",
+    "description": "§b偷偷告訴你§b\n這是§d優儒§b加入的§e小彩蛋§b~",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "server:root",
+  "criteria": {
+    "for_you_diamond": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player"
+        },
+        "item": {
+          "items": [
+            "minecraft:diamond"
+          ]
+        }
+      }
+    }
+  }
+}

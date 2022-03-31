@@ -1,0 +1,2 @@
+#AIM擴散力場
+give @s minecraft:sheep_spawn_egg{display:{Name:'{"text":"\\u00a7bAIM\\u00a7r\\u00a7d擴散力場"}',Lore:['{"text":"\\u00a7eAn Involuntary Movement"}']},Enchantments:[{id:"minecraft:infinity",lvl:1}],EntityTag:{id:"minecraft:area_effect_cloud",CustomName:'{"text":"\\u00a7aAIM擴散力場"}',Age:0,Duration:600,WaitTime:0,DurationOnUse:0.0f,Radius:0.5f,RadiusOnUse:0.0f,RadiusPerTick:0.02f,Particle:"underwater",Effects:[{Id:14b,Amplifier:0b,Duration:600,Ambient:0b,ShowParticles:0b,ShowIcon:0b}]}} 1

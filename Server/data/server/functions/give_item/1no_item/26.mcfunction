@@ -1,0 +1,2 @@
+#夢見汁
+give @s minecraft:potion{display:{Name:'{"text":"\\u00a7d夢見汁"}'},CustomPotionEffects:[{Id:1b,Amplifier:3b,Duration:12000,Ambient:0b,ShowParticles:1b,ShowIcon:0b},{Id:5b,Amplifier:3b,Duration:12000,Ambient:0b,ShowParticles:1b,ShowIcon:0b},{Id:8b,Amplifier:3b,Duration:12000,Ambient:0b,ShowParticles:1b,ShowIcon:0b},{Id:9b,Amplifier:3b,Duration:12000,Ambient:0b,ShowParticles:1b,ShowIcon:0b},{Id:17b,Amplifier:3b,Duration:12000,Ambient:0b,ShowParticles:1b,ShowIcon:0b},{Id:25b,Amplifier:2b,Duration:1200,Ambient:0b,ShowParticles:1b,ShowIcon:0b}],CustomPotionColor:14090198}

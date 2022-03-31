@@ -1,0 +1,30 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:enchanted_golden_apple"
+      },
+      "title": "§e太強大!",
+      "description": "§a吃下一顆附魔金蘋果",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "minecraft:husbandry/plant_seed",
+    "criteria": {
+      "enchanted_golden_apple": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:enchanted_golden_apple"
+            ]
+          }
+        }
+      }
+    },
+    "rewards": {
+      "experience": 100
+    }
+}
+  

@@ -1,0 +1,24 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:allium"
+      },
+      "title": "§d死在優奈手下",
+      "description": "§e達成人生成就 §b[§d死在優奈手下§b]",
+      "frame": "task",
+      "hidden": true
+    },
+    "parent": "server:root",
+    "criteria": {
+      "yuuna_killed_player": {
+        "trigger": "minecraft:entity_killed_player",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:player",
+            "nbt": "{UUID:[I;1654676390,-1467658256,-1431782275,-226011523]}"
+          }
+        }
+      }
+    }
+  }
+  

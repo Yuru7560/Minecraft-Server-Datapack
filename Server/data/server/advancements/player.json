@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "hook_player": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "server:adv_functions/player/player"
+  }
+}

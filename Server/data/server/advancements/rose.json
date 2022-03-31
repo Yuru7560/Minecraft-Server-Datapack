@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "wither": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wither"
+        },
+        "killing_blow": {
+          "is_explosion": false,
+          "is_fire": false,
+          "is_magic": false,
+          "is_projectile": true,
+          "is_lightning": false,
+          "bypasses_armor": false,
+          "bypasses_invulnerability": false,
+          "bypasses_magic": false
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "server:adv_functions/wither_rose/rose"
+  }
+}

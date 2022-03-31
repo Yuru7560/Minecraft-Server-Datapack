@@ -1,0 +1,11 @@
+#Empty
+
+execute as @e[type=armor_stand,tag=spyglass_detect_look] at @s run tp @s ^ ^ ^0.5
+
+#execute as @e[type=armor_stand,tag=spyglass_detect_look] at @s run particle end_rod ~ ~ ~ 0 0 0 0 1 normal @a
+
+execute as @e[type=armor_stand,tag=spyglass_detect_look] at @s run execute if entity @a[tag=!hold_spyglass,distance=..1] run tag @a[tag=!hold_spyglass,distance=..1] add spyglass_at_player.this
+execute as @e[type=armor_stand,tag=spyglass_detect_look] at @s run execute if entity @a[tag=!hold_spyglass,distance=..1,limit=1] run function server:adv_functions/spyglass_at_player/chat
+
+
+execute as @e[type=armor_stand,tag=spyglass_detect_look] at @s unless entity @a[tag=!hold_spyglass,distance=..1,limit=1] run function server:adv_functions/spyglass_at_player/detect_look

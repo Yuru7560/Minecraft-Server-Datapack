@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:cake"
+      },
+      "title": "§e蛋糕是個謊言",
+      "description": "§a你被騙了嗎?",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "minecraft:husbandry/plant_seed",
+    "criteria": {
+      "craft_cake": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "minecraft:cake"
+        }
+      }
+    },
+    "rewards": {
+      "experience": 100
+    }
+}
+  

@@ -1,0 +1,29 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:diamond_sword",
+        "nbt": "{Enchantments:[{id:\"minecraft:meeting\",lvl:1}]}"
+      },
+      "title": "§e太殺了",
+      "description": "§a一擊造成9顆心傷害",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "minecraft:adventure/kill_a_mob",
+    "criteria": {
+      "damage": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "damage": {
+            "taken": 18
+          }
+        }
+      }
+    },
+    "rewards": {
+      "experience": 100
+    }
+}
+  

@@ -1,0 +1,7 @@
+#Empty
+
+title @a actionbar [[{"text":"\u00a7e<"},{"selector":"@a[tag=hold_spyglass]"},{"text": "\u00a7e> "}],[{"text":"\u00a7e好瑟! 竟然在偷看 <"},{"selector":"@a[tag=spyglass_at_player.this]"},{"text": "\u00a7e>"}]]
+advancement revoke @a[tag=hold_spyglass] only server:spyglass_at_player
+tag @a[tag=hold_spyglass] remove hold_spyglass
+tag @a[tag=spyglass_at_player.this] remove spyglass_at_player.this
+kill @s

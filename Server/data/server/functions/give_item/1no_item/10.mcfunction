@@ -1,0 +1,2 @@
+#黃金打架精華
+give @s minecraft:splash_potion{display:{Name:'{"text":"\\u00a7e\\u00a7l黃金打架精華 \\u00a7d\\u00a7lLV87"}',Lore:['{"text":"\\u00a7e非常適合投入平時與一般怪物戰鬥之中的藥水"}','{"text":"\\u00a7e有著足以應付傷害的回復能力 讓這瓶藥水被大量使用"}']},CustomPotionEffects:[{Id:6b,Amplifier:2b,Duration:0,Ambient:0b,ShowParticles:1b,ShowIcon:1b},{Id:10b,Amplifier:1b,Duration:3600,Ambient:0b,ShowParticles:1b,ShowIcon:1b}],CustomPotionColor:14859871} 1
