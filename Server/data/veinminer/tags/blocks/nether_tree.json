@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:warped_stem",
+    "minecraft:crimson_stem",
+    "minecraft:warped_wart_block",
+    "minecraft:nether_wart_block",
+    "minecraft:shroomlight"
+  ]
+}

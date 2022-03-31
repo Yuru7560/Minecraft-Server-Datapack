@@ -1,0 +1,53 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "nbt": "{SelectedItem:{id:\"minecraft:wooden_axe\",Count:1b}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "nbt": "{SelectedItem:{id:\"minecraft:stone_axe\",Count:1b}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "nbt": "{SelectedItem:{id:\"minecraft:iron_axe\",Count:1b}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "nbt": "{SelectedItem:{id:\"minecraft:golden_axe\",Count:1b}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "nbt": "{SelectedItem:{id:\"minecraft:diamond_axe\",Count:1b}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "nbt": "{SelectedItem:{id:\"minecraft:netherite_axe\",Count:1b}}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:oak_log"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:spruce_log"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:birch_log"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:jungle_log"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:acacia_log"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:dark_oak_log"
+          ]
+        }
+      }
+    }
+  ]
+}
