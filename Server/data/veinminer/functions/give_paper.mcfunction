@@ -1,0 +1,4 @@
+#Empty
+give @s paper{vein:1b,display:{Name:'{"text":"\\u00a7d連鎖挖礦"}',Lore:['{"text":"\\u00a7e可以挖:\\u00a7a[\\u00a7b所有礦石\\u00a7a]"}','{"text":" "}','{"text":" "}','{"text":"\\u00a7b請放在\\u00a7d背包左上角那格"}']},Enchantments:[{id:"minecraft:infinity",lvl:1}]}
+give @s paper{vein:2b,display:{Name:'{"text":"\\u00a7d連鎖挖石頭"}',Lore:['{"text":"\\u00a7e可以挖:\\u00a7a[\\u00a7b花崗岩 閃長岩 安山岩 凝灰岩 方解石\\u00a7a]"}','{"text":" "}','{"text":" "}','{"text":"\\u00a7b請放在\\u00a7d背包左上角那格"}']},Enchantments:[{id:"minecraft:infinity",lvl:1}]}
+give @s paper{vein:3b,display:{Name:'{"text":"\\u00a7d連鎖挖礦&石頭"}',Lore:['{"text":"\\u00a7e可以挖:\\u00a7a[\\u00a7b所有礦石\\u00a7a] [\\u00a7b花崗岩 閃長岩 安山岩 凝灰岩 方解石\\u00a7a]"}','{"text":" "}','{"text":" "}','{"text":"\\u00a7b請放在\\u00a7d背包左上角那格"}']},Enchantments:[{id:"minecraft:infinity",lvl:1}]}
